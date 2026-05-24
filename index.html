@@ -1,15 +1,244 @@
-<!DOCTYPE html>
+
+      <!DOCTYPE html>
 <html lang="hr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Telefonski Imenik Hrvatske 2026 | Svi brojevi i operateri</title>
+    <meta name="description" content="Tražite telefonski broj? Jedinstveni pristup svim imenicima u Hrvatskoj: HT, A1, Telemach i ostali. Brzo, sigurno i bez registracije.">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JT0SZT07PP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JT0SZT07PP');
+    </script>
 
-  <title>Telefonski imenik Hrvatska | Kontakti, operateri i korisne informacije</title>
-  <meta name="description" content="Telefonski imenik Hrvatska - informativna stranica za korisnike koji traže telefonske operatere, korisničku podršku i korisne kontakte u Hrvatskoj.">
-  <meta name="robots" content="index, follow">
+    <style>
+        :root {
+            --primary: #0ea5e9;
+            --dark: #0f172a;
+            --card: #1e293b;
+            --text: #f1f5f9;
+            --accent: #f59e0b;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--dark);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+
+        /* Header & Hero */
+        header {
+            text-align: center;
+            padding: 80px 20px;
+            background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .badge {
+            background: var(--primary);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h1 { font-size: clamp(2.5rem, 6vw, 4rem); margin: 20px 0; letter-spacing: -2px; }
+
+        /* Pseudo-Search Box (The Grok trick, but better) */
+        .fake-search {
+            max-width: 700px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 50px;
+            padding: 8px;
+            display: flex;
+            box-shadow: 0 0 30px rgba(14, 165, 233, 0.3);
+        }
+
+        .fake-search input {
+            flex: 1;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 50px;
+            outline: none;
+            font-size: 16px;
+        }
+
+        .fake-search button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0 30px;
+            border-radius: 50px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Operator Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 50px 0;
+        }
+
+        .card {
+            background: var(--card);
+            padding: 30px;
+            border-radius: 24px;
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover { transform: translateY(-10px); border-color: var(--primary); }
+        
+        .card h3 { margin-top: 0; color: var(--primary); }
+        .card p { font-size: 14px; color: #94a3b8; }
+        
+        .btn-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 2px solid var(--primary);
+        }
+
+        /* Ad Slots (Designed to look like content) */
+        .ad-spot {
+            background: rgba(245, 158, 11, 0.1);
+            border: 2px dashed var(--accent);
+            padding: 40px;
+            text-align: center;
+            border-radius: 24px;
+            margin: 40px 0;
+            color: var(--accent);
+        }
+
+        /* MetaAdvisor Promo - Ultra Professional */
+        .meta-promo {
+            background: linear-gradient(90deg, #1e293b 0%, #0f172a 100%);
+            padding: 40px;
+            border-radius: 30px;
+            border: 1px solid rgba(255,255,255,0.1);
+            margin-top: 60px;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .meta-item {
+            background: rgba(255,255,255,0.03);
+            padding: 20px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            transition: 0.2s;
+        }
+
+        .meta-item:hover { background: var(--primary); }
+
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            font-size: 13px;
+            color: #64748b;
+        }
+
+        @media (max-width: 600px) {
+            .fake-search button { display: none; }
+        }
+    </style>
 </head>
 <body>
-  <h1>Telefonski imenik Hrvatska</h1>
-  <p>Nova statična stranica je u pripremi.</p>
+
+<header>
+    <div class="container">
+        <span class="badge">Domena s tradicijom od 2009.</span>
+        <h1>Telefonski Imenik</h1>
+        <p style="color: #94a3b8; margin-bottom: 30px;">Najbrži put do brojeva telefona svih hrvatskih operatera.</p>
+        
+        <div class="fake-search">
+            <input type="text" placeholder="Upišite ime ili naziv (npr. HT Podrška)...">
+            <button onclick="alert('Preusmjeravanje na bazu operatera...')">TRAŽI</button>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    
+    <div class="ad-spot">
+        <strong>Oglasni prostor za operatere</strong><br>
+        Zauzmite premium poziciju na najstarijoj domeni za imenik.
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Hrvatski Telekom</h3>
+            <p>Pronađite fiksne i mobilne brojeve najvećeg operatera u RH.</p>
+            <a href="https://www.hrvatskitelekom.hr/poslovni/podrska/imenik" class="btn-link" target="_blank">Otvori Imenik →</a>
+        </div>
+        <div class="card" style="border-left: 4px solid #e30613;">
+            <h3>A1 Hrvatska</h3>
+            <p>Službena provjera brojeva za privatne i poslovne A1 korisnike.</p>
+            <a href="https://www.a1.hr/privatni/imenik" class="btn-link" target="_blank">Otvori Imenik →</a>
+        </div>
+        <div class="card" style="border-left: 4px solid #78ff00;">
+            <h3>Telemach</h3>
+            <p>Brza pretraga pretplatnika i korisnika Telemach mreže.</p>
+            <a href="https://telemach.hr/podrska/telefonski-imenik" class="btn-link" target="_blank">Otvori Imenik →</a>
+        </div>
+    </div>
+
+    <section style="padding: 40px 0; text-align: center;">
+        <h2>Zašto nismo kao ostali?</h2>
+        <p style="max-width: 800px; margin: 0 auto; color: #94a3b8;">
+            Hrvatsko tržište je rascjepkano. Svaki operater ljubomorno čuva svoju bazu. Mi smo ovdje da vam skratimo muke – umjesto da lutate Googleom, ovdje imate <strong>direktne ulaze</strong> u sve baze podataka. Čisto, brzo i bez prikupljanja vaših privatnih podataka.
+        </p>
+    </section>
+
+    <div class="meta-promo">
+        <h3 style="margin-top:0">MetaAdvisor Network</h3>
+        <p style="color: #94a3b8;">Naši ostali projekti koje razvijamo s istom strašću:</p>
+        <div class="meta-grid">
+            <a href="https://metaadvisor.eu" class="meta-item">
+                <strong>MetaAdvisor.eu</strong><br><small>AI & Tech</small>
+            </a>
+            <a href="https://far-go.com" class="meta-item">
+                <strong>Far-Go.com</strong><br><small>Travel</small>
+            </a>
+            <a href="https://koo-ham.com" class="meta-item">
+                <strong>Koo-Ham.com</strong><br><small>Recipes</small>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Telefonski Imenik Hrvatske. Informativni agregator.</p>
+    <p>Kontakt za oglašavanje: <a href="mailto:bikeexpresshr@gmail.com" style="color:var(--primary)">bikeexpresshr@gmail.com</a></p>
+</footer>
+
 </body>
 </html>
